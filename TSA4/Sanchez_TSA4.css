@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poetsen+One&display=swap');
+
+body{
+    text-align: center;
+    font-family: "Montserrat";
+    background-image: url('Background_White_Green.jpg');
+    background-size: cover;
+    margin: 500;
+}
+
+.container {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 20px;
+}
+
+.h1 {
+    font-size: 50px;
+}
+
+.logo {
+    display: block;
+    width: 100px;
+    height: 100px;
+    left: 20px;
+}
+
+.highlight {
+    font-weight: bold;
+    color: green;
+}
+
+.p3 {
+    font-weight: bold;
+    color: green;
+    font-size: 30px;
+}
+
+
+
