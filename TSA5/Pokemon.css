@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body, .add, .release{
+    font-family: "Press Start 2P";
+}
+
+body {
+    background-image: url('bg1.jpg'); /* Example background image */
+    background-size: cover; /* Adjusts the size of the background image to cover the entire viewport */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+}
+
+.card{
+    text-align: center;
+    width: 300px;
+    height: 530px;
+    margin: auto;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 90%;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.image-container{
+    background-image: url(bg.png);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid;
+    padding: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details{
+    border: 1px solid;
+    color: white;
+    padding: 13px;
+    height: 200px;
+}
+
+.desc{
+    text-align: justify;
+    text-shadow: 1px 1px 1px #000000;
+    font-size: 7px;
+    line-height: 15px;
+
+}
+
+.darkred{
+    background-color: #eae5d2;
+    border: 2px solid black;
+}
+
+.name{
+    font-size: 15px;
+    text-shadow: 2px 2px 2px #000000;
+    font-weight: bold;
+}
+
+.type {
+    text-shadow: 2px 2px 2px #000000;
+    font-size: 10px;
+}
+
+.type1-fire, .type1-electric, .type1-normal1, .type1-normal2, .type1-bug, .type1-water, .type2-ice, .type2-flying{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 10px;
+    padding: 4px;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+.type1-electric, .type1-normal2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 38px;
+}
+
+.type1-fire {
+    background-color: #E62829;
+}
+
+.type2-flying{
+    background-color: #81B9EF;    
+}
+
+.type1-electric {
+    background-color: #FAC000;
+}
+
+.type1-bug {
+    background-color: #91A119;
+}
+
+.type1-water {
+    background-color: #2980EF;
+}
+
+.type2-ice {
+    background-color: #3DCEF3;
+}
+
+.type1-normal1, .type1-normal2{
+    background-color: #9FA19F;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    padding-top: 2px;
+    font-size: 10px;
+}
+
+.buttons button {
+    padding: 4px 30px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    color: white;
+    font-size: 8px;
+}
+
+.add {
+    background-color: #66D8F6;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+.release {
+    background-color: #899EEA;
+    text-shadow: 2px 2px 2px #000000;
+}
