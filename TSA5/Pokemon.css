@@ -5,10 +5,10 @@ body, .add, .release{
 }
 
 body {
-    background-image: url('bg1.jpg'); /* Example background image */
-    background-size: cover; /* Adjusts the size of the background image to cover the entire viewport */
-    background-position: center; /* Centers the background image */
-    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    background-image: url('Wallpaper.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .card{
