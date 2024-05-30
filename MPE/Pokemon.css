@@ -1,0 +1,142 @@
+body {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin:0;
+    padding:0;
+    background-image:url(background.jpg);
+    background:no-repeat;
+    background-size:cover;
+  }
+  .container {
+    display:flex;
+    display:grid;
+    flex-wrap:wrap;
+    justify-content:center;
+    width:100%;
+    padding:20px;
+    box-sizing:border-box;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+  }
+  .pokemon {
+    background:rgb(235,103,103);
+    border-radius:20px;
+    padding:10px;
+    margin:5px;
+    text-align:center;
+    flex:1 1 22%;
+    position:relative;
+  }
+  .pokemon:hover {
+    background:url(meww.jpg) no-repeat;
+    background-size:cover;
+    object-fit:cover;
+  }
+  .pokemon img {
+    width:100px;
+    height:100px;
+    object-fit:cover;
+  }
+  .pokemon span {
+    display:block;
+    margin-top:10px;
+  }
+  .pokemon .pokeball {
+    display:none;
+    position:absolute;
+    right:10px;
+    top:10px;
+    width:30px;
+    height:30px;
+  }
+  .pokemon:nth-child(1) {
+    background-color:yellow
+  }
+  .pokemon:nth-child(2) {
+    background-color:aquamarine
+  }
+  .pokemon:nth-child(3) {
+    background-color:orange
+  }
+  .pokemon:nth-child(4) {
+    background-color:gray
+  }
+  .pokemon:nth-child(5) {
+    background-color:palevioletred
+  }
+  .pokemon:nth-child(6) {
+    background-color:rgb(216,171,171);
+  }
+  .pokemon:nth-child(7) {
+    background-color:yellow
+  }
+  .pokemon:nth-child(8) {
+    background-color:darkgoldenrod
+  }
+  .pokemon:nth-child(9) {
+    background-color:darkorchid
+  }
+  .pokemon:nth-child(10) {
+    background-color:darkslateblue
+  }
+  .pokemon:nth-child(11) {
+    background-color:aqua
+  }
+  .pokemon:nth-child(12) {
+    background-color:purple
+  }
+  @media screen and (max-width:768px) {
+    .container {
+    grid-template-columns:repeat(3,1fr);
+  }
+  .pokemon {
+    text-align:center;
+  }
+  }@media (max-width:600px) {
+    .container {
+    display:block;
+  }
+  .pokemon {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border:5px solid #080707;
+    padding:10px;
+  }
+  .pokemon img {
+    width:50px;
+    height:50px;
+  }
+  .gpokemon span {
+    flex-grow:1;
+    text-align:left;
+    margin-left:10px;
+  }
+  .pokemon .pokeball {
+    display:block;
+  }
+  }@media(max-width:480px) {
+    .container {
+    display:flex;
+    flex-wrap:wrap;
+  }
+  .pokemon {
+    display:flex;
+    display:block;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+  }
+  .pokemon img {
+    width:100px;
+    height:100px;
+  }
+  .pokemon span {
+    display:block;
+    margin-top:10px;
+  }
+  .pokemon .pokeball {
+    display:none;
+  }
+  }
