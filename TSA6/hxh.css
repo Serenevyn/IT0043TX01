@@ -20,13 +20,18 @@ img{
 .item{
     border: 3px solid black;
     color: white;
-    text-shadow: 3px 3px 3px black;
     border-radius: 30px;
     padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
+}
+
+#ging .details, #meruem .details{
+    display: flex;
+    align-items: center;
+    gap: 50px;
 }
 
 .desc{
@@ -53,10 +58,12 @@ img{
     background-color: #BEBEBD;
     grid-column: 1/3;
     grid-row: 1/2;
+    color: black
 }
 
 #hisoka{
     background-color: #FF4A73;
+    color: black
 }
 
 #killua{
@@ -67,6 +74,7 @@ img{
     background-color: #B4D2A4;
     grid-column: 2/4;
     grid-row: 2/3;
+    color: black
 }
 
 #neferpitou{
